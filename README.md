@@ -1,2 +1,5 @@
 # PyStijl
-Procedurally generating De Stijl art (specifically in Mondrian's style)
+Mondrian-esque art
+
+## Usage
+`python3 pystijl.py`
