@@ -19,7 +19,10 @@ class Utils:
 		# Initialize canvas with border edges
 		self.lines = {'HOR': [(0, (0,1)), (1, (0,1))],
 					  'VER': [(0, (0,1)), (1, (0,1))]}
-					  
+		# Initialize a list to keep track of all boxes we make
+		self.boxes = []
+
+
 		# And an orientations list to keep track of how we've placed lines thus far
 		self.orientations = []
 
